@@ -1,6 +1,6 @@
 import React from "react";
-import Products from "./components/Products";
 import data from "./data.json";
+import Products from "./components/Products";
 
 class App extends React.Component {
   constructor() {
@@ -15,7 +15,7 @@ class App extends React.Component {
     return (
       <div className="grid-container">
         <header>
-          <a href="/">React Shopping Cart</a>
+          <a href="/">ATHENA SHOPPING CART</a>
         </header>
         <main>
           <div className="content">
