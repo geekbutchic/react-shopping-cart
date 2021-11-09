@@ -6,7 +6,7 @@
       "title": "RECUPERARE LEGGINGS",
       "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ATHENA, our universal brand is here for you, and comes in all our fit ranges: Created by us, styled by you.",
       "availableSizes": ["XS", "S", "M", "L"],
-      "price": 59.9
+      "price": 60
     },
     {
       "_id": "item2",
@@ -14,7 +14,7 @@
       "title": "FORTE CROPPED TANK",
       "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ATHENA, our universal brand is here for you, and comes in all our fit ranges: Created by us, styled by you.",
       "availableSizes": ["XS", "S", "L"],
-      "price": 29.9
+      "price": 30
     },
     {
       "_id": "item3",
@@ -22,7 +22,7 @@
       "title": "ANDIAMO QUAD SHORT",
       "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ATHENA, our universal brand is here for you, and comes in all our fit ranges: Created by us, styled by you.",
       "availableSizes": ["XS", "M", "XXL"],
-      "price": 39.9
+      "price": 40
     },
     {
       "_id": "item4",
@@ -30,7 +30,7 @@
       "title": "ATHENA SCULPT YOGA SET",
       "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ATHENA, our universal brand is here for you, and comes in all our fit ranges: Created by us, styled by you.",
       "availableSizes": ["M","L", "XL", "XXL"],
-      "price": 99.9
+      "price": 100
     },
     {
       "_id": "item5",
@@ -38,7 +38,7 @@
       "title": "GRECO ROMAN 3/4 LEGGINGS",
       "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ATHENA, our universal brand is here for you, and comes in all our fit ranges: Created by us, styled by you.",
       "availableSizes": ["M", "L", "XL"],
-      "price": 69.9
+      "price": 70
     },
     {
       "_id": "item6",
@@ -46,7 +46,7 @@
       "title": "TUTTO BLUE LEGGINGS",
       "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ATHENA, our universal brand is here for you, and comes in all our fit ranges: Created by us, styled by you.",
       "availableSizes": ["XS","S","XL", "XXL"],
-      "price": 49.9
+      "price": 50
     }
   ]
 }

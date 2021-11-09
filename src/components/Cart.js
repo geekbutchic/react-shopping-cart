@@ -24,16 +24,37 @@ export default class Cart extends Component {
                   <div>
                     <div>{item.title}</div>
                     <div className="right">
-                    {formatCurrency(item.price)} x {item.count}{" "}
-                    <button className="button" onClick={() => this.props.removeFromCart(item)}>
-                      Remove
-                    </button>
+                      {formatCurrency(item.price)} x {item.count}{" "}
+                      <button
+                        className="button"
+                        onClick={() => this.props.removeFromCart(item)}
+                      >
+                        Remove
+                      </button>
                     </div>
                   </div>
                 </li>
               ))}
             </ul>
           </div>
+          {cartItems.length !==
+            0 && (
+              <div className="cart">
+                <div className="total">
+                  <div>
+                    Total:{" "}
+                    {cartItems.reduce(
+                      (accumulator, current) =>
+                        accumulator + current.price * current.count,
+                      0
+                    )}
+                  </div>
+                  <button className="button primary">
+                    Proceed To Checkout
+                  </button>
+                </div>
+              </div>
+            )}
         </div>
       </div>
     );
