@@ -37,24 +37,21 @@ export default class Cart extends Component {
               ))}
             </ul>
           </div>
-          {cartItems.length !==
-            0 && (
-              <div className="cart">
-                <div className="total">
-                  <div>
-                    Total:{" "}
-                    {cartItems.reduce(
-                      (accumulator, current) =>
-                        accumulator + current.price * current.count,
-                      0
-                    )}
-                  </div>
-                  <button className="button primary">
-                    Proceed To Checkout
-                  </button>
+          {cartItems.length !== 0 && (
+            <div className="cart">
+              <div className="total">
+                <div>
+                  Total:{" "}
+                  {cartItems.reduce(
+                    (accumulator, current) =>
+                      accumulator + current.price * current.count,
+                    0
+                  )}
                 </div>
+                <button className="button primary">Checkout</button>
               </div>
-            )}
+            </div>
+          )}
         </div>
       </div>
     );
