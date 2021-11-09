@@ -169,7 +169,6 @@ footer {
 .cart-items img{
   display: flex;
   width:5rem;
-  justify-content:end;
   border-radius: 5px;
 }
 
