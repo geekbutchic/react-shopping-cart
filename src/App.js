@@ -46,16 +46,16 @@ class App extends React.Component {
       sort: sort,
       products: this.state.products
         .slice()
-        .sort((a, b) =>
+        .sort((x, y) =>
           sort === "lowest"
-            ? a.price > b.price
+            ? x.price > y.price
               ? 1
               : -1
             : sort === "highest"
-            ? a.price < b.price
+            ? x.price < y.price
               ? 1
               : -1
-            : a._id < b._id
+            : x._id < y._id
             ? 1
             : -1
         ),

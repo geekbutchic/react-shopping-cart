@@ -4,9 +4,9 @@ export default class Filter extends Component {
   render() {
     return (
       <div className="filter">
-        <div className="filter-result">{this.props.count} PRODUCTS</div>
+        <div className="filter-result">({this.props.count} PRODUCTS)</div>
         <div className="filter-sort">
-          ORDER{" "}
+          SORT BY{" "}
           <select value={this.props.sort} onChange={this.props.sortProducts}>
             <option>Latest</option>
             <option value="lowest">Lowest</option>

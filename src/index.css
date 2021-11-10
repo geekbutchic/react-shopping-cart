@@ -32,8 +32,13 @@ textarea {
 a {
   text-decoration: none;
 }
-a:hover {
-  color: #ff8000;
+
+.product p {
+  color: rgb(80, 88, 199);
+}
+
+p:hover {
+  color: #d113b8;
 }
 header {
   grid-area: header;
@@ -62,7 +67,6 @@ footer {
 .content {
   display: flex;
   flex-wrap: wrap;
-
 }
 .main {
   flex: 3 60rem;
@@ -80,8 +84,8 @@ footer {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  
 }
+
 .products li {
   flex: 0 1 25rem;
   height: 47rem;
@@ -122,12 +126,12 @@ footer {
   border: 0.2rem #808080 solid;
 }
 .button.primary {
-  background-color:#f1ecec;
+  background-color: #e4bebe;
 }
 
 /* FILTER CLASS */
 
-.filter{
+.filter {
   display: flex;
   padding: 1rem;
   margin: 1rem;
@@ -136,13 +140,13 @@ footer {
   border-bottom: 0.5rem #c0c0c0 solid;
 }
 
-.filter div{
+.filter div {
   flex: 1;
 }
 
 /* SIDEBAR */
 
-.cart{
+.cart {
   padding: 1rem;
   margin: 1rem;
   display: flex;
@@ -166,21 +170,21 @@ footer {
   list-style-type: none;
 }
 
-.cart-items img{
+.cart-items img {
   display: flex;
-  width:5rem;
+  width: 5rem;
   border-radius: 5px;
 }
 
-.cart-items li{
+.cart-items li {
   display: flex;
 }
 
-.cart-items li div{
-  padding: .5rem;
+.cart-items li div {
+  padding: 0.5rem;
 }
 
-.cart-items li div:last-child{
+.cart-items li div:last-child {
   flex: 1;
 }
 
@@ -191,7 +195,7 @@ footer {
 .total {
   display: flex;
   justify-content: space-between;
-  align-items: center ;
+  align-items: center;
   width: 100%;
 }
 
