@@ -87,6 +87,7 @@ export default class Cart extends Component {
                 </div>
               </div>
               {this.state.showCheckout && (
+                <Fade direction="right" cascade={true} triggerOnce={true}>
                 <div className="cart">
                   <form onSubmit={this.createOrder}>
                     <ul className="form-container">
@@ -125,6 +126,7 @@ export default class Cart extends Component {
                     </ul>
                   </form>
                 </div>
+                </Fade>
               )}
             </div>
           )}
