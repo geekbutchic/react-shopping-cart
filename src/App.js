@@ -120,7 +120,7 @@ class App extends React.Component {
             </div>
           </div>
         </main>
-        <footer>Sonny Valenzuela & Lee Mobley</footer>
+        <footer>Sonny Lee Valenzuela</footer>
       </div>
     );
   }
