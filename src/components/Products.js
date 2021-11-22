@@ -54,7 +54,7 @@ export default class Products extends Component {
           <Modal isOpen={true} onRequestClose={this.closeModal}>
             <Zoom>
               <button className="close-modal" onClick={this.closeModal}>
-                X
+                Close
               </button>
               <div className="product-details">
                 <img src={product.image} alt={product.title}></img>
@@ -64,7 +64,7 @@ export default class Products extends Component {
                   </p>
                   <p>{product.description}</p>
                   <p>
-                    Available Sizes:{" "}
+                    Available Sizes : {" "}
                     {product.availableSizes.map((x) => (
                       <span>
                         {" "}
