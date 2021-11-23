@@ -1,21 +1,22 @@
 const express = require("express");
-const bodyParser = require("body-parser");
+// const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-const uuidv4 = require('uuid/v4');
+const uuidv4 = require("uuid/v4");
 
 const app = express();
-app.use(bodyParser.json());
+// app.use(bodyParser.json());
+app.use(express.json());
 
 mongoose.connect("mongodb://localhost:27017/react-shopping-cart-db", {
-    useNewUrlParser: true, 
-    useUnifiedTopology: true, 
-    useUnifiedTopology: true,
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useUnifiedTopology: true,
 });
 
 const Product = mongoose.model(
   "products",
   new mongoose.Schema({
-    _id: { type: String, default: uuidv4()},
+    _id: { type: String, default: uuidv4() },
     title: String,
     description: String,
     image: String,
